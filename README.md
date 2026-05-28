@@ -68,10 +68,6 @@ git pull
 ```
 If `requirements.txt` has changed, re-run `pip install -r requirements.txt` inside the activated venv.
 
-## Assessment
-
-Graded on a final written exam (see the course description for details). Active participation in notebook laboratories is mandatory but not graded.
-
 ## Licence
 
 Course materials are released under the [Creative Commons Attribution 4.0 International Licence (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/). You are welcome to reuse and adapt the materials with attribution.
