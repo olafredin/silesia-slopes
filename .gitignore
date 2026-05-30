@@ -25,6 +25,10 @@ notebooks/figures/
 *.tiff
 data/
 
+# ---- Exception: commit the Skamsdalen QGIS lab rasters via Git LFS ----
+!notebooks/qgis_lab_08/data/
+!notebooks/qgis_lab_08/data/*.tif
+
 # ---- OS cruft ----
 .DS_Store
 Thumbs.db
