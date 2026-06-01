@@ -16,23 +16,27 @@ We use **Python 3.11 or newer**. The notebooks were developed and tested with 3.
 
 ### Windows
 
-1. Go to <https://www.python.org/downloads/> and download the latest stable installer.
+1. Go to [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest stable installer.
 2. Run the installer. **Critical: tick the box "Add python.exe to PATH"** at the bottom of the first installer page before clicking *Install Now*.
 3. Open PowerShell and verify:
    ```
    $ python --version
    ```
+
    You should see something like `Python 3.12.x`.
 
 ### macOS
 
-Easiest route is Homebrew (<https://brew.sh>):
+Easiest route is Homebrew ([https://brew.sh](https://brew.sh)):
+
 ```
 $ brew install python@3.12
 ```
-Or download the `.pkg` installer from <https://www.python.org/downloads/macos/>.
+
+Or download the `.pkg` installer from [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/).
 
 Verify:
+
 ```
 $ python3 --version
 ```
@@ -51,11 +55,12 @@ $ python3 --version
 
 Git is the version-control tool we use to share the notebooks.
 
-- **Windows:** download from <https://git-scm.com/download/win> and install with the default options. This also gives you *Git Bash*, a useful Unix-style terminal.
+- **Windows:** download from [https://git-scm.com/download/win](https://git-scm.com/download/win) and install with the default options. This also gives you *Git Bash*, a useful Unix-style terminal.
 - **macOS:** ships with the Xcode Command Line Tools. Run `xcode-select --install` once. Or `brew install git`.
 - **Linux:** `sudo apt install git`.
 
 Verify on any OS:
+
 ```
 $ git --version
 ```
@@ -66,7 +71,7 @@ $ git --version
 
 VS Code is a free, lightweight editor with excellent Python and Jupyter support.
 
-1. Download and install from <https://code.visualstudio.com/>.
+1. Download and install from [https://code.visualstudio.com/](https://code.visualstudio.com/).
 2. Open VS Code, then open the Extensions pane (`Ctrl+Shift+X` on Windows/Linux, `Cmd+Shift+X` on macOS) and install these two extensions:
    - **Python** (by Microsoft)
    - **Jupyter** (by Microsoft)
@@ -82,16 +87,18 @@ That is the minimum. Pylance (the language server) installs automatically with t
 Open a terminal in the folder where you want the course code to live, then:
 
 ```
-$ git clone https://github.com/<INSTRUCTOR-WILL-SHARE-URL>.git
+$ git clone https://github.com/olafredin/silesia-slopes.git
 $ cd <repo-folder-name>
 ```
 
 Replace the placeholder with the actual URL the instructor sends. After cloning you will have a local copy of all notebooks, figures, and shared code.
 
 **To get updates during the course** — for example, when a new notebook is added between teaching days — run:
+
 ```
 $ git pull
 ```
+
 inside the repo folder. This is non-destructive as long as you have not edited the instructor's files. If you want to experiment, copy a notebook to your own filename first (`03_mohr_coulomb.ipynb` → `03_mohr_coulomb_MYNAME.ipynb`).
 
 ---
@@ -110,6 +117,7 @@ $ .venv\Scripts\Activate.ps1
 ```
 
 If PowerShell refuses the activation script with an *execution policy* error, run this once, then try again:
+
 ```
 $ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
@@ -153,6 +161,7 @@ You only need to do this once per machine.
 ## 8. Open a notebook and verify
 
 Open VS Code in the repo folder:
+
 ```
 $ code .
 ```
@@ -162,6 +171,7 @@ In VS Code's file explorer, open `notebooks/03_mohr_coulomb.ipynb`. Click the ke
 If the imports run without error and the Mohr circle plot appears, your setup is complete.
 
 To run JupyterLab in the browser instead:
+
 ```
 $ jupyter lab
 ```
