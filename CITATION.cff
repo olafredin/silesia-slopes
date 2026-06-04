@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Geomorphological Hazards of Slopes — short-course materials"
+abstract: >-
+  Teaching materials (lecture-linked Jupyter notebooks) on slope instability
+  and geohazards in steep terrain: landslides, debris flows, rock falls, and
+  the soil-mechanical principles behind them. Developed for a 3-day PhD short
+  course at the Centre for Polar Studies, University of Silesia, May 2026.
+type: software
+authors:
+  - family-names: Fredin
+    given-names: Ola
+    affiliation: "Norwegian University of Science and Technology (NTNU), Trondheim"
+    orcid: "https://orcid.org/0000-0002-0803-3312"
+date-released: 2026-05-01
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/olafredin/silesia-slopes"
+keywords:
+  - geomorphology
+  - geohazards
+  - slope stability
+  - landslides
+  - debris flows
+  - teaching materials
